@@ -34,30 +34,30 @@ __Abreviaturas:__
  * distance_full: Distancia recorrida de los camiones llenos (en metros)
 
 __Estadísticas Descriptivas Sin Valores Atípicos:__
-* Registros totales: 385 181 (aproximadamente 2.7% de datos eliminados, de 395 680
+ * Registros totales: 385 181 (aproximadamente 2.7% de datos eliminados, de 395 680
 Registros iniciales).
-* Medias: Muy cercanas a las originales.
-* Desviaciones estándar: Ligeramente disminuidas.
-* Valores mínimos y máximos: Más concentrados.
+ * Medias: Muy cercanas a las originales.
+ * Desviaciones estándar: Ligeramente disminuidas.
+ * Valores mínimos y máximos: Más concentrados.
 
 __Interpretación:__
-* Rendimiento General: Más consistente y predecible sin outliers.
-* Decisiones Basadas en Datos: Menos susceptibles a variaciones extremas.
-* Visualización y Reportes: Más claros y representativos.
+ * Rendimiento General: Más consistente y predecible sin outliers.
+ * Decisiones Basadas en Datos: Menos susceptibles a variaciones extremas.
+ * Visualización y Reportes: Más claros y representativos.
 
 __Requerimientos del Análisis:__
-* Los Ránking de Eficiencia por cada nueva variable, se pueden verificar tanto en el notebook ["examen.ipynb"](https://github.com/melinnicri/EjercicioML/blob/main/examen.ipynb) como en el Dashboard, __Tabla 1__, con date = fecha(Enero-2023 a Mayo 2024); truck = camión; loader = pala; eficiencia_camion = eficiencia de camión; eficiencia_pala = eficiencia de pala; tonelaje_por_paladas = tonelaje por paladas; eficiencia_distancia = eficiencia de distancia.
-* Ranking de Desempeño: Elaborar un ranking del desempeño de los equipos con base en su eficiencia en el transporte de tonelaje.
+ * Los Ránking de Eficiencia por cada nueva variable, se pueden verificar tanto en el notebook ["examen.ipynb"](https://github.com/melinnicri/EjercicioML/blob/main/examen.ipynb) como en el Dashboard, __Tabla 1__, con date = fecha(Enero-2023 a Mayo 2024); truck = camión; loader = pala; eficiencia_camion = eficiencia de camión; eficiencia_pala = eficiencia de pala; tonelaje_por_paladas = tonelaje por paladas; eficiencia_distancia = eficiencia de distancia.
+ * Ranking de Desempeño: Elaborar un ranking del desempeño de los equipos con base en su eficiencia en el transporte de tonelaje.
 
 __* Cálculo de Eficiencias (sin considerar outliers):__
-1.- Eficiencia del Camión: ton / truck_total_cycle
-2.- Eficiencia de Pala: ton / loader_total_cycle
-3.- Productividad de Operación de Carga: ton / n_shovel
-4.- Eficiencia por Distancia: distance_full / distance_empty
+  1.- Eficiencia del Camión: ton / truck_total_cycle
+  2.- Eficiencia de Pala: ton / loader_total_cycle
+  3.- Productividad de Operación de Carga: ton / n_shovel
+ 4.- Eficiencia por Distancia: distance_full / distance_empty
 
-Tabla 1: Ranking de Eficiencias:
-Ranking	Eficiencia de Camión	Eficiencia de Palas	Tonelaje por Paladas	Eficiencia por Distancia (mayor a 1)	Eficiencia por Distancia (menor a 1)
-	0.1639	1.1673	102.5775	1.4430	0.8934
+__Tabla 1: Ranking de Eficiencias:__
+| Ranking | Eficiencia de Camión | Eficiencia de Palas | Tonelaje por Paladas |	Eficiencia por Distancia (mayor a 1) |	Eficiencia por Distancia (menor a 1) |
+|-------- |0.1639 |1.1673|102.5775|1.4430|0.8934|
 
 Interpretaciones:
 Eficiencia de Camión (0.1639): Margen para mejorar.
