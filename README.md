@@ -25,7 +25,6 @@ __Datos Iniciales:__
 
 <p align="center" style="font-size: small;">Abreviaturas: ton: toneladas de material con que se carga un camión; n_shovel: número de paladas con que se llenan un camión; truck_total_cycle: ciclo total del camión (en segundos); loader_total_cycle: ciclo total de paladas (en segundos); distance_empty: distancia recorrida de los camiones vacíos (en metros); distance_full: distancia recorrida de los camiones llenos (en metros).</p>
 
-
 __Abreviaturas:__
 * ton: Toneladas de material con que se carga un camión
 * n_shovel: Número de paladas con que se llena un camión
@@ -34,22 +33,23 @@ __Abreviaturas:__
 * distance_empty: Distancia recorrida de los camiones vacíos (en metros)
 * distance_full: Distancia recorrida de los camiones llenos (en metros)
 
-Estadísticas Descriptivas Sin Valores Atípicos:
-Registros totales: 385 181 (aproximadamente 2.7% de datos eliminados, de 395 680
+__Estadísticas Descriptivas Sin Valores Atípicos:__
+* Registros totales: 385 181 (aproximadamente 2.7% de datos eliminados, de 395 680
 Registros iniciales).
-Medias: Muy cercanas a las originales.
-Desviaciones estándar: Ligeramente disminuidas.
-Valores mínimos y máximos: Más concentrados.
+* Medias: Muy cercanas a las originales.
+* Desviaciones estándar: Ligeramente disminuidas.
+* Valores mínimos y máximos: Más concentrados.
 
-Interpretación:
-Rendimiento General: Más consistente y predecible sin outliers.
-Decisiones Basadas en Datos: Menos susceptibles a variaciones extremas.
-Visualización y Reportes: Más claros y representativos.
+__Interpretación:__
+* Rendimiento General: Más consistente y predecible sin outliers.
+* Decisiones Basadas en Datos: Menos susceptibles a variaciones extremas.
+* Visualización y Reportes: Más claros y representativos.
 
-Requerimientos del Análisis:
-Los Ránking de Eficiencia por cada nueva variable, se pueden verificar tanto en el notebook ["examen.ipynb"](https://github.com/melinnicri/EjercicioML/blob/main/examen.ipynb)como en el Dashboard, Tabla 1, con date = fecha(Enero-2023 a Mayo 2024); truck = camión; loader = pala; eficiencia_camion = eficiencia de camión; eficiencia_pala = eficiencia de pala; tonelaje_por_paladas = tonelaje por paladas; eficiencia_distancia = eficiencia de distancia.
-Ranking de Desempeño: Elaborar un ranking del desempeño de los equipos con base en su eficiencia en el transporte de tonelaje.
-Cálculo de Eficiencias (sin considerar outliers):
+__Requerimientos del Análisis:__
+* Los Ránking de Eficiencia por cada nueva variable, se pueden verificar tanto en el notebook ["examen.ipynb"](https://github.com/melinnicri/EjercicioML/blob/main/examen.ipynb) como en el Dashboard, __Tabla 1__, con date = fecha(Enero-2023 a Mayo 2024); truck = camión; loader = pala; eficiencia_camion = eficiencia de camión; eficiencia_pala = eficiencia de pala; tonelaje_por_paladas = tonelaje por paladas; eficiencia_distancia = eficiencia de distancia.
+* Ranking de Desempeño: Elaborar un ranking del desempeño de los equipos con base en su eficiencia en el transporte de tonelaje.
+
+__* Cálculo de Eficiencias (sin considerar outliers):__
 1.- Eficiencia del Camión: ton / truck_total_cycle
 2.- Eficiencia de Pala: ton / loader_total_cycle
 3.- Productividad de Operación de Carga: ton / n_shovel
