@@ -9,17 +9,13 @@ __Descripción del Problema__
 * La información con la que se cuenta es la cantidad de tonelaje movido durante un día de operación y el número de paladas. 
 * El objetivo principal es identificar los equipos de mejor rendimiento en términos de tonelaje extraído por día, así como los principales factores que influyen en esta métrica. 
 
-
-
-
-
-Análisis Estadístico Descriptivo:
-Datos Iniciales:
-Camiones: 47
-Palas: 4
-Datos nulos: Ninguno
-Datos faltantes: Ninguno
-Datos atípicos: Sí, pero resultaron ser menos del 1% y fueron eliminados. Estos no desvían significativamente los promedios, en un principio.
+__Análisis Estadístico Descriptivo:__
+* Datos Iniciales:
+* Camiones: 47
+* Palas: 4
+* Datos nulos: Ninguno
+* Datos faltantes: Ninguno
+* Datos atípicos: Sí, pero resultaron ser menos del 1% y fueron eliminados. Estos no desvían significativamente los promedios, en un principio.
 
 Gráfico 1: Caja con Bigotes (Variabilidad)
 Gráfico 1: gráfico con bigotes de los datos iniciales:
