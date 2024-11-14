@@ -57,11 +57,33 @@ __* Cálculo de Eficiencias (sin considerar outliers):__
   * 3.- Productividad de Operación de Carga: ton / n_shovel
   * 4.- Eficiencia por Distancia: distance_full / distance_empty
 
+
 __Tabla 1: Ranking de Eficiencias:__
 
-| Ranking | Eficiencia de Camión | Eficiencia de Palas | Tonelaje por Paladas | Eficiencia por Distancia (mayor a 1) | Eficiencia por Distancia (menor a 1) |
+| Ranking | Eficiencia de Camión | Eficiencia de Pala  | Tonelaje por Paladas | Eficiencia por Distancia (mayor a 1) | Eficiencia por Distancia (menor a 1) |
 |---------|----------------------|---------------------|----------------------|--------------------------------------|--------------------------------------|
 |         | 0.1639               | 1.1673              | 102.5775             | 1.4430                               | 0.8934                               |
+
+<p align="center">
+  <table>
+    <tr>
+      <th>Ranking</th>
+      <th>Eficiencia de Camión</th>
+      <th>Eficiencia de Palas</th>
+      <th>Tonelaje por Paladas</th>
+      <th>Eficiencia por Distancia (mayor a 1)</th>
+      <th>Eficiencia por Distancia (menor a 1)</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>0.1639</td>
+      <td>1.1673</td>
+      <td>102.5775</td>
+      <td>1.4430</td>
+      <td>0.8934</td>
+    </tr>
+  </table>
+</p>
 
 __Interpretaciones:__
 Eficiencia de Camión (0.1639): Margen para mejorar.
@@ -70,7 +92,8 @@ Eficiencia Tonelaje por Paladas (102.5775): Buen rendimiento de carga.
 Eficiencia por Distancia (mayor a 1) (1.4430): Optimización en la entrega de material.
 Eficiencia por Distancia (menor a 1) (0.8934): Optimización en el retorno.
 
-Acciones que tomar:
+
+__Acciones que tomar:__
 Optimizar rutas de camiones.
 Mantener el buen uso de palas.
 Aumentar la productividad de carga.
