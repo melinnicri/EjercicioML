@@ -236,10 +236,10 @@ __Interpretación de los Resultados por Clúster (gráficas de distribución):__
   * Este grupo tiene la eficiencia del camión más alta, y una eficiencia de la pala alta. El tonelaje por palada es alto, similar al Clúster 2, y la eficiencia de distancia es la más baja, sugiriendo menos variabilidad en la distancia recorrida.
 
 __Conclusiones:__
-__Clúster 0:__ Indica operaciones con eficiencia de camión moderada y menor tonelaje por palada. Podría ser un enfoque para optimización (menos eficiencia).
-__Clúster 1:__ Presenta una eficiencia de distancia muy alta y variabilidad en la distancia, posiblemente indicando rutas largas o cambios en las condiciones operativas.
-__Clúster 2:__ Tiene la menor eficiencia de camión, pero el mayor tonelaje por palada, sugiriendo posibles mejoras en la operación de los camiones.
-__Clúster 3:__ Muestra la mejor eficiencia de camión, similar a Clúster 2 en tonelaje por palada, pero con una menor eficiencia de distancia.
+* _Clúster 0:_ Indica operaciones con eficiencia de camión moderada y menor tonelaje por palada. Podría ser un enfoque para optimización (menos eficiencia).
+* _Clúster 1:_ Presenta una eficiencia de distancia muy alta y variabilidad en la distancia, posiblemente indicando rutas largas o cambios en las condiciones operativas.
+* _Clúster 2:_ Tiene la menor eficiencia de camión, pero el mayor tonelaje por palada, sugiriendo posibles mejoras en la operación de los camiones.
+* _Clúster 3:_ Muestra la mejor eficiencia de camión, similar a Clúster 2 en tonelaje por palada, pero con una menor eficiencia de distancia.
   * Esto proporciona una base sólida para investigar y optimizar diferentes aspectos operacionales según los clústeres (se puede revisar cada clúster y su composición en el Dashboard adjunto).
 
 
@@ -283,5 +283,6 @@ __Archivos adjuntos:__
 -	Notebook donde se trabajó el archivo de datos .csv, se realizó ETL y EDA: ["examen.ipynb"](https://github.com/melinnicri/EjercicioML/blob/main/examen.ipynb)
 -	Notebook donde se trabajó el nuevo DATAFRAME para hacerse el ML:["MLmineria.ipynb"](https://github.com/melinnicri/EjercicioML/blob/main/MLmineria.ipynb)
 -	Notebook donde se hicieron las listas con los camiones, palas y sus eficiencias:["clústeres"](https://github.com/melinnicri/EjercicioML/blob/main/cluster_cam_pal.ipynb)
--	Panel en PowerBI ["Dashboard"](https://github.com/melinnicri/EjercicioML/blob/main/images/dashboard.png)(https://github.com/melinnicri/EjercicioML/blob/main/camiones.pbix)
+-	Panel en PowerBI: ["Dashboard"](https://github.com/melinnicri/EjercicioML/blob/main/camiones.pbix),
+-	["Imagen Dashboard"](https://github.com/melinnicri/EjercicioML/blob/main/images/dashboard.png)
 __.//…_@v__
