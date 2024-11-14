@@ -1,6 +1,6 @@
 ### Ejercicio: 
 **Amelia Herrera Briceño**, __melinnicri@gmail.com,__ 
-**Noviembre, 2024.*
+__Noviembre, 2024__
 
 <p align="center"><img src="https://github.com/melinnicri/EjercicioML/blob/main/images/mineria.jpg"></p>
  
