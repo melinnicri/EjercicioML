@@ -26,12 +26,12 @@ __Datos Iniciales:__
 <p align="center" style="font-size: small;">Abreviaturas: ton: toneladas de material con que se carga un camión; n_shovel: número de paladas con que se llenan un camión; truck_total_cycle: ciclo total del camión (en segundos); loader_total_cycle: ciclo total de paladas (en segundos); distance_empty: distancia recorrida de los camiones vacíos (en metros); distance_full: distancia recorrida de los camiones llenos (en metros).</p>
 
 __Abreviaturas:__
-* ton: Toneladas de material con que se carga un camión
-* n_shovel: Número de paladas con que se llena un camión
-* truck_total_cycle: Ciclo total del camión (en segundos)
-* loader_total_cycle: Ciclo total de paladas (en segundos)
-* distance_empty: Distancia recorrida de los camiones vacíos (en metros)
-* distance_full: Distancia recorrida de los camiones llenos (en metros)
+ * ton: Toneladas de material con que se carga un camión
+ * n_shovel: Número de paladas con que se llena un camión
+ * truck_total_cycle: Ciclo total del camión (en segundos)
+ * loader_total_cycle: Ciclo total de paladas (en segundos)
+ * distance_empty: Distancia recorrida de los camiones vacíos (en metros)
+ * distance_full: Distancia recorrida de los camiones llenos (en metros)
 
 __Estadísticas Descriptivas Sin Valores Atípicos:__
 * Registros totales: 385 181 (aproximadamente 2.7% de datos eliminados, de 395 680
