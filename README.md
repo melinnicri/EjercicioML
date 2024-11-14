@@ -10,7 +10,7 @@ __Descripción del Problema__
 * El objetivo principal es identificar los equipos de mejor rendimiento en términos de tonelaje extraído por día, así como los principales factores que influyen en esta métrica. 
 
 __Análisis Estadístico Descriptivo:__
-* Datos Iniciales:
+__Datos Iniciales:__
 * Camiones: 47
 * Palas: 4
 * Datos nulos: Ninguno
@@ -18,29 +18,21 @@ __Análisis Estadístico Descriptivo:__
 * Datos atípicos: Sí, pero resultaron ser menos del 1% y fueron eliminados. Estos no desvían significativamente los promedios, en un principio.
 
 
-<p align="center"><img src="" alt="">
-</p>
-
-<h3 align="center">Gráfico 1: Caja con Bigotes (Variabilidad)</h3>
-
 <p align="center">
-  <img src="https://example.com/imagen.png](https://github.com/melinnicri/EjercicioML/blob/main/images/graficoinicial.png" alt="Descripción de la Imagen">
+  <img src="https://github.com/melinnicri/EjercicioML/blob/main/images/graficoinicial.png" alt="Descripción de la Imagen">
 </p>
 
 <p align="center" style="font-size: small;">Abreviaturas: ton: toneladas de material con que se carga un camión; n_shovel: número de paladas con que se llenan un camión; truck_total_cycle: ciclo total del camión (en segundos); loader_total_cycle: ciclo total de paladas (en segundos); distance_empty: distancia recorrida de los camiones vacíos (en metros); distance_full: distancia recorrida de los camiones llenos (en metros).</p>
 
 ### Gráfico 1: gráfico con bigotes de los datos iniciales:
 
-
-
-
-Abreviaturas:
-ton: Toneladas de material con que se carga un camión
-n_shovel: Número de paladas con que se llena un camión
-truck_total_cycle: Ciclo total del camión (en segundos)
-loader_total_cycle: Ciclo total de paladas (en segundos)
-distance_empty: Distancia recorrida de los camiones vacíos (en metros)
-distance_full: Distancia recorrida de los camiones llenos (en metros)
+__Abreviaturas:__
+* ton: Toneladas de material con que se carga un camión
+* n_shovel: Número de paladas con que se llena un camión
+* truck_total_cycle: Ciclo total del camión (en segundos)
+* loader_total_cycle: Ciclo total de paladas (en segundos)
+* distance_empty: Distancia recorrida de los camiones vacíos (en metros)
+* distance_full: Distancia recorrida de los camiones llenos (en metros)
 
 Estadísticas Descriptivas Sin Valores Atípicos:
 Registros totales: 385 181 (aproximadamente 2.7% de datos eliminados, de 395 680
