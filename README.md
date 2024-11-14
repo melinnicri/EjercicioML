@@ -46,7 +46,7 @@ __Interpretación:__
  * Visualización y Reportes: Más claros y representativos.
 
 __Requerimientos del Análisis:__
- * Los Ránking de Eficiencia por cada nueva variable, se pueden verificar tanto en el notebook ["examen.ipynb"](https://github.com/melinnicri/EjercicioML/blob/main/examen.ipynb)
+ * Los Ránking de Eficiencia por cada nueva variable, se pueden verificar tanto en el notebook [examen.ipynb](https://github.com/melinnicri/EjercicioML/blob/main/examen.ipynb)
    como en el Dashboard, __Tabla 1__, con date = fecha(Enero-2023 a Mayo 2024); truck = camión; loader = pala; eficiencia_camion = eficiencia de camión;
    eficiencia_pala = eficiencia de pala; tonelaje_por_paladas = tonelaje por paladas; eficiencia_distancia = eficiencia de distancia.
  * Ranking de Desempeño: Elaborar un ranking del desempeño de los equipos con base en su eficiencia en el transporte de tonelaje.
