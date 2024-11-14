@@ -181,26 +181,29 @@ __Componente Principal 1 (PC1)__ y __Componente Principal 2 (PC2)__ representan 
 **Clústeres:**
 Los puntos en el gráfico están coloreados según los clústeres (agrupaciones) a los que pertenecen. En este caso, hay cuatro clústeres, identificados por los colores morado, azul, verde y amarillo.
 
-¿Qué Significan los Clústeres?
-Clúster 0 (Morado):
-Este grupo de puntos comparte características similares en términos de eficiencia del camión, tonelaje por palada y eficiencia de distancia. Puede ser útil investigar las características específicas de este grupo para entender qué las hace similares.
-Clúster 1 (Azul):
-Similarmente, los puntos en este clúster comparten características comunes. Compararlos con otros clústeres puede revelar diferencias clave que podrían ser explotadas para mejorar la eficiencia operativa.
-Clúster 2 (Verde):
-Este grupo puede representar un conjunto de camiones y palas con características de eficiencia particulares que los diferencian de los otros clústeres. Podría ser interesante investigar si hay prácticas operativas o condiciones específicas que influyen en su desempeño.
-Clúster 3 (Amarillo):
-Este clúster agrupa otro conjunto de datos con características similares. Al igual que los otros clústeres, investigar las propiedades comunes puede ofrecer insights sobre su desempeño.
+__¿Qué Significan los Clústeres?__
+**Clúster 0 (Morado):**
+- Este grupo de puntos comparte características similares en términos de eficiencia del camión, tonelaje por palada y eficiencia de distancia. Puede ser útil investigar las características específicas de este grupo para entender qué las hace similares.
 
-Interpretación de los Resultados por Clúster (gráficas de distribución):
-Clúster 0:
-Fecha Promedio: 16 de septiembre de 2023
-Camión Promedio: 23.79 (codificado numéricamente)
-Loader (pala) Promedio: 1.58 (codificado numéricamente)
-Eficiencia del Camión: 0.150339
-Eficiencia de la Pala: 1.056925
-Tonelaje por Palada: 79.063127
-Eficiencia de Distancia: 0.990484
--	Este grupo tiene una eficiencia del camión moderada y una eficiencia de la pala más baja en comparación con otros clústeres. El tonelaje por palada también es el más bajo, y la eficiencia de distancia está cerca de 1.
+**Clúster 1 (Azul):**
+- Similarmente, los puntos en este clúster comparten características comunes. Compararlos con otros clústeres puede revelar diferencias clave que podrían ser explotadas para mejorar la eficiencia operativa.
+
+**Clúster 2 (Verde):**
+- Este grupo puede representar un conjunto de camiones y palas con características de eficiencia particulares que los diferencian de los otros clústeres. Podría ser interesante investigar si hay prácticas operativas o condiciones específicas que influyen en su desempeño.
+
+**Clúster 3 (Amarillo):**
+- Este clúster agrupa otro conjunto de datos con características similares. Al igual que los otros clústeres, investigar las propiedades comunes puede ofrecer insights sobre su desempeño.
+
+__Interpretación de los Resultados por Clúster (gráficas de distribución):__
+**Clúster 0:**
+- Fecha Promedio: 16 de septiembre de 2023
+- Camión Promedio: 23.79 (codificado numéricamente)
+- Loader (pala) Promedio: 1.58 (codificado numéricamente)
+- Eficiencia del Camión: 0.150339
+- Eficiencia de la Pala: 1.056925
+- Tonelaje por Palada: 79.063127
+- Eficiencia de Distancia: 0.990484
+  *	Este grupo tiene una eficiencia del camión moderada y una eficiencia de la pala más baja en comparación con otros clústeres. El tonelaje por palada también es el más bajo, y la eficiencia de distancia está cerca de 1.
 
 Clúster 1:
 Fecha Promedio: 3 de noviembre de 2023
