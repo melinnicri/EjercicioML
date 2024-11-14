@@ -18,7 +18,7 @@ __Análisis Estadístico Descriptivo:__
 * Datos atípicos: Sí, pero resultaron ser menos del 1% y fueron eliminados. Estos no desvían significativamente los promedios, en un principio.
 
 
-<p align="center"><img src="https://github.com/melinnicri/EjercicioML/blob/main/images/graficoinicial.png" alt="Caja y bigotes">
+<p align="center"><img src="https://github.com/melinnicri/EjercicioML/blob/main/images/graficoinicial.png" alt="Abreviaturas: ton: toneladas de material con que se carga un camión; n_shovel: número de paladas con que se llenan un camión; truck_total_cycle: ciclo total del camión (en segundos); loader_total_cycle: ciclo total de paladas (en segundos); distance_empty: distancia recorrida de los camiones vacíos (en metros); distance_full: distancia recorrida de los camiones llenos (en metros).">
 </p>
 
 <h3 align="center">Gráfico 1: Caja con Bigotes (Variabilidad)</h3>
@@ -26,7 +26,6 @@ __Análisis Estadístico Descriptivo:__
 
 ### Gráfico 1: gráfico con bigotes de los datos iniciales:
 
-Abreviaturas: ton: toneladas de material con que se carga un camión; n_shovel: número de paladas con que se llenan un camión; truck_total_cycle: ciclo total del camión (en segundos); loader_total_cycle: ciclo total de paladas (en segundos); distance_empty: distancia recorrida de los camiones vacíos (en metros); distance_full: distancia recorrida de los camiones llenos (en metros).
 
 
 
