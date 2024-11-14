@@ -50,16 +50,17 @@ __Requerimientos del Análisis:__
  * Ranking de Desempeño: Elaborar un ranking del desempeño de los equipos con base en su eficiencia en el transporte de tonelaje.
 
 __* Cálculo de Eficiencias (sin considerar outliers):__
-  1.- Eficiencia del Camión: ton / truck_total_cycle
-  2.- Eficiencia de Pala: ton / loader_total_cycle
-  3.- Productividad de Operación de Carga: ton / n_shovel
- 4.- Eficiencia por Distancia: distance_full / distance_empty
+  * 1.- Eficiencia del Camión: ton / truck_total_cycle
+  * 2.- Eficiencia de Pala: ton / loader_total_cycle
+  * 3.- Productividad de Operación de Carga: ton / n_shovel
+  * 4.- Eficiencia por Distancia: distance_full / distance_empty
 
 __Tabla 1: Ranking de Eficiencias:__
 | Ranking | Eficiencia de Camión | Eficiencia de Palas | Tonelaje por Paladas |	Eficiencia por Distancia (mayor a 1) |	Eficiencia por Distancia (menor a 1) |
-|-------- |0.1639 |1.1673|102.5775|1.4430|0.8934|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------- |      0.1639          |       1.1673        |      102.5775        |             1.4430                   |             0.8934                   |
 
-Interpretaciones:
+__Interpretaciones:__
 Eficiencia de Camión (0.1639): Margen para mejorar.
 Eficiencia de Pala (1.1673): Buen uso de palas.
 Eficiencia Tonelaje por Paladas (102.5775): Buen rendimiento de carga.
