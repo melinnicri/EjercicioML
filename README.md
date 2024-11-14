@@ -60,10 +60,6 @@ __* Cálculo de Eficiencias (sin considerar outliers):__
 
 __Tabla 1: Ranking de Eficiencias:__
 
-| Ranking | Eficiencia de Camión | Eficiencia de Pala  | Tonelaje por Paladas | Eficiencia por Distancia (mayor a 1) | Eficiencia por Distancia (menor a 1) |
-|---------|----------------------|---------------------|----------------------|--------------------------------------|--------------------------------------|
-|         | 0.1639               | 1.1673              | 102.5775             | 1.4430                               | 0.8934                               |
-
 <p align="center">
   <table>
     <tr>
@@ -103,77 +99,86 @@ Mejorar prácticas operativas y mantenimiento.
 Capacitación para operadores.
 
 
-
-
-
-
-Identificación de Factores Críticos: 
+__Identificación de Factores Críticos:__ 
 Determinación de las variables que más influyen en el rendimiento de los equipos mediante una matriz de correlación.
-En cuanto a factores críticos, se realizó una matriz de correlación, donde se cruzaron las variables, como se muestran en el Gráfico 2: 
+En cuanto a factores críticos, se realizó una matriz de correlación, donde se cruzaron las variables, como se muestran en el __Gráfico 2:__ 
 
-Gráfico 2: Variables en el tiempo (Enero del 2023 – Mayo del 2024)
+### Gráfico 2: Variables en el tiempo (Enero del 2023 – Mayo del 2024)
+
+<p align="center">
+  <img src="https://github.com/melinnicri/EjercicioML/blob/main/images/Imagen2.png" alt="Gráfico 2: Variables en el tiempo (Enero del 2023 – Mayo del 2024)">
+</p>
+
+<p align="center" style="font-size: small;">Eficiencia de camión, Eficiencia de pala, Tonelaje por palada, Eficiencia de distancia, entre Enero del 2023 a Mayo del 2024.</p>
 
  
-Eficiencia de camión, Eficiencia de pala, Tonelaje por palada, Eficiencia de distancia, entre Enero del 2023 a Mayo del 2024.
+
+El __Gráfico 3__, muestra los resultados de la Matriz de correlación de las variables mostradas anteriormente.
+
+### Gráfico 3, Matriz de correlación:
+
+<p align="center">
+  <img src="https://github.com/melinnicri/EjercicioML/blob/main/images/Imagen3.png" alt="Gráfico 3, Matriz de correlación:">
+</p>
+
+<p align="center" style="font-size: small;">Eficiencia de camión, Eficiencia de pala, Tonelaje por palada, Eficiencia de distancia, entre Enero del 2023 a Mayo del 2024.</p>
 
 
+De acuerdo con los resultados, de la __Matriz de correlación__, en general, hay una baja o débil correlación en general.
+
+### - Eficiencia del Camión:
+* Con Eficiencia de la Pala (0.005791): Hay una correlación muy débil y positiva entre la eficiencia del camión y la eficiencia de la pala. Esto sugiere que no hay una relación significativa entre estas dos métricas.
+*	Con Tonelaje por Palada (0.020797): También hay una correlación muy débil y positiva con el tonelaje por palada, indicando nuevamente una relación insignificante.
+* Con Eficiencia de Distancia (-0.067893): La correlación es negativa y muy débil, indicando una relación muy pequeña y negativa entre la eficiencia del camión y la eficiencia de distancia.
+
+### - Eficiencia de la Pala:
+* Con Tonelaje por Palada (0.158310): Hay una correlación positiva débil entre la eficiencia de la pala y el tonelaje por palada. Esto sugiere que a medida que aumenta el tonelaje por palada, la eficiencia de la pala también tiende a aumentar, aunque esta relación es débil.
+* Con Eficiencia de Distancia (0.011406): Hay una correlación muy débil y positiva, lo que indica prácticamente ninguna relación significativa entre estas métricas.
+
+### - Tonelaje por Palada:
+* Con Eficiencia de Distancia (0.006519): La correlación es extremadamente débil y positiva, indicando casi ninguna relación entre el tonelaje por palada y la eficiencia de distancia.
+
+### - Eficiencia de Distancia:
+* Como se mencionó anteriormente, todas las correlaciones con la eficiencia de distancia son muy débiles, indicando poca o ninguna relación significativa con las otras métricas.
+
+__Conclusiones Generales:__
+* Correlaciones Muy Débiles: Las correlaciones son en su mayoría muy débiles, lo que sugiere que las métricas no están fuertemente relacionadas entre sí. Esto podría indicar que cada métrica captura diferentes aspectos de la eficiencia operativa y no están directamente influidas por las otras métricas.
+* Relación Débil: La única correlación que muestra una relación débil es entre la eficiencia de la pala y el tonelaje por palada, lo que podría indicar que mejorar el tonelaje por palada puede tener un pequeño impacto positivo en la eficiencia de la pala.
+
+__Como la correlación era débil, se aplicó Modelo PCA por separado para camiones y para palas__, relacionando las otras variables, Eficiencia de camión, Eficiencia de pala, Tonelaje por palada, Eficiencia de distancia, entre Enero del 2023 a Mayo del 2024, en 4 clústers, tal como muestra el __Gráfico 4__:
+
+### Gráfico 4: PCA de dos componentes:
+
+<p align="center">
+  <img src="https://github.com/melinnicri/EjercicioML/blob/main/images/grafpca.png" alt="Gráfico 4: PCA de dos componentes">
+</p>
+  
+
+* La separación visual entre los clústeres indica que el PCA ha logrado reducir la dimensionalidad de los datos mientras preserva la variabilidad y las relaciones importantes.
+* Cada clúster representa un grupo de camiones y palas con patrones de eficiencia similares.
 
 
+En las siguientes gráficas (__Gráfico 5__ y __Gráfico 6__) se puede visualizar la distribución de los puntos en los componentes principales mostrando cómo los diferentes clústeres se relacionan con las métricas de eficiencia. Los clústeres están bien diferenciados, lo que sugiere que hay diferencias claras en las eficiencias operativas de los grupos.
+
+### Gráfico 5: Distribución de Eficiencia de camión por clúster.
+
+<p align="center">
+  <img src="https://github.com/melinnicri/EjercicioML/blob/main/images/cluster_camion.png" alt="Gráfico 5: Distribución de Eficiencia de camión por clúster">
+</p>
 
 
-El Gráfico 3, muestra los resultados de la Matriz de correlación de las variables mostradas anteriormente.
-Gráfico 3, Matriz de correlación:
- 
-Eficiencia de camión, Eficiencia de pala, Tonelaje por palada, Eficiencia de distancia, entre Enero del 2023 a Mayo del 2024.
+### Gráfico 6: Distribución de Eficiencia de pala por clúster.
 
-De acuerdo con los resultados, de la Matriz de correlación, en general, hay una baja o débil correlación en general.
-Eficiencia del Camión:
-•	Con Eficiencia de la Pala (0.005791): Hay una correlación muy débil y positiva entre la eficiencia del camión y la eficiencia de la pala. Esto sugiere que no hay una relación significativa entre estas dos métricas.
-•	Con Tonelaje por Palada (0.020797): También hay una correlación muy débil y positiva con el tonelaje por palada, indicando nuevamente una relación insignificante.
-•	Con Eficiencia de Distancia (-0.067893): La correlación es negativa y muy débil, indicando una relación muy pequeña y negativa entre la eficiencia del camión y la eficiencia de distancia.
+<p align="center">
+  <img src="https://github.com/melinnicri/EjercicioML/blob/main/images/cluster_pala.png" alt="Gráfico 6: Distribución de Eficiencia de pala por clúster">
+</p>
 
 
+__Interpretación del Gráfico PCA Componentes Principales:__
+__Componente Principal 1 (PC1)__ y __Componente Principal 2 (PC2)__ representan las direcciones de mayor variabilidad en los datos. 
+* Estos componentes son combinaciones lineales de las variables originales (eficiencia_camion, tonelaje_por_paladas, eficiencia_distancia).
 
-
-
-Eficiencia de la Pala:
-•	Con Tonelaje por Palada (0.158310): Hay una correlación positiva débil entre la eficiencia de la pala y el tonelaje por palada. Esto sugiere que a medida que aumenta el tonelaje por palada, la eficiencia de la pala también tiende a aumentar, aunque esta relación es débil.
-•	Con Eficiencia de Distancia (0.011406): Hay una correlación muy débil y positiva, lo que indica prácticamente ninguna relación significativa entre estas métricas.
-Tonelaje por Palada:
-•	Con Eficiencia de Distancia (0.006519): La correlación es extremadamente débil y positiva, indicando casi ninguna relación entre el tonelaje por palada y la eficiencia de distancia.
-Eficiencia de Distancia:
-•	Como se mencionó anteriormente, todas las correlaciones con la eficiencia de distancia son muy débiles, indicando poca o ninguna relación significativa con las otras métricas.
-Conclusiones Generales:
-•	Correlaciones Muy Débiles: Las correlaciones son en su mayoría muy débiles, lo que sugiere que las métricas no están fuertemente relacionadas entre sí. Esto podría indicar que cada métrica captura diferentes aspectos de la eficiencia operativa y no están directamente influidas por las otras métricas.
-•	Relación Débil: La única correlación que muestra una relación débil es entre la eficiencia de la pala y el tonelaje por palada, lo que podría indicar que mejorar el tonelaje por palada puede tener un pequeño impacto positivo en la eficiencia de la pala.
-
-Como la correlación era débil, se aplicó Modelo PCA por separado para camiones y para palas, relacionando las otras variables, Eficiencia de camión, Eficiencia de pala, Tonelaje por palada, Eficiencia de distancia, entre Enero del 2023 a Mayo del 2024, en 4 clústers, tal como muestra el Gráfico 4:
-
-
-
-
-
-Gráfico 4: PCA de dos componentes.
- 
-
-La separación visual entre los clústeres indica que el PCA ha logrado reducir la dimensionalidad de los datos mientras preserva la variabilidad y las relaciones importantes. Cada clúster representa un grupo de camiones y palas con patrones de eficiencia similares.
-
-
-
-
-
-
-
-En las siguientes gráficas (Gráfico 5 y Gráfico 6) se puede visualizar la distribución de los puntos en los componentes principales mostrando cómo los diferentes clústeres se relacionan con las métricas de eficiencia. Los clústeres están bien diferenciados, lo que sugiere que hay diferencias claras en las eficiencias operativas de los grupos.
-Gráfico 5: Distribución de Eficiencia de camión por clúster.
- 
-
-Gráfico 6: Distribución de Eficiencia de pala por clúster.
- 
-
-Interpretación del Gráfico PCA Componentes Principales:
-Componente Principal 1 (PC1) y Componente Principal 2 (PC2) representan las direcciones de mayor variabilidad en los datos. Estos componentes son combinaciones lineales de las variables originales (eficiencia_camion, tonelaje_por_paladas, eficiencia_distancia).
-Clústeres:
+**Clústeres:**
 Los puntos en el gráfico están coloreados según los clústeres (agrupaciones) a los que pertenecen. En este caso, hay cuatro clústeres, identificados por los colores morado, azul, verde y amarillo.
 
 ¿Qué Significan los Clústeres?
