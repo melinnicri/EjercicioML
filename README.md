@@ -205,100 +205,82 @@ __Interpretación de los Resultados por Clúster (gráficas de distribución):__
 - Eficiencia de Distancia: 0.990484
   *	Este grupo tiene una eficiencia del camión moderada y una eficiencia de la pala más baja en comparación con otros clústeres. El tonelaje por palada también es el más bajo, y la eficiencia de distancia está cerca de 1.
 
-Clúster 1:
-Fecha Promedio: 3 de noviembre de 2023
-Camión Promedio: 23.46 (codificado numéricamente)
-Loader (pala) Promedio: 1.72 (codificado numéricamente)
-Eficiencia del Camión: 0.139137
-Eficiencia de la Pala: 1.175720
-Tonelaje por Palada: 99.073852
-Eficiencia de Distancia: 7.377063
--	Este grupo presenta una baja eficiencia del camión, pero una eficiencia de la pala relativamente alta. El tonelaje por palada es alto y la eficiencia de distancia es muy alta, lo que sugiere mucha variabilidad en la distancia recorrida.
+**Clúster 1:**
+- Fecha Promedio: 3 de noviembre de 2023
+- Camión Promedio: 23.46 (codificado numéricamente)
+- Loader (pala) Promedio: 1.72 (codificado numéricamente)
+- Eficiencia del Camión: 0.139137
+- Eficiencia de la Pala: 1.175720
+- Tonelaje por Palada: 99.073852
+- Eficiencia de Distancia: 7.377063
+  * Este grupo presenta una baja eficiencia del camión, pero una eficiencia de la pala relativamente alta. El tonelaje por palada es alto y la eficiencia de distancia es muy alta, lo que sugiere mucha variabilidad en la distancia recorrida.
 
-Clúster 2:
-Fecha Promedio: 27 de agosto de 2023
-Camión Promedio: 23.39 (codificado numéricamente)
-Loader (pala) Promedio: 1.79 (codificado numéricamente)
-Eficiencia del Camión: 0.118032
-Eficiencia de la Pala: 1.169723
-Tonelaje por Palada: 104.649197
-Eficiencia de Distancia: 1.008742
--	Este grupo tiene la eficiencia del camión más baja pero una eficiencia de la pala alta. El tonelaje por palada es el más alto, y la eficiencia de distancia está cerca de 1, indicando poca variabilidad en la distancia.
+**Clúster 2:**
+- Fecha Promedio: 27 de agosto de 2023
+- Camión Promedio: 23.39 (codificado numéricamente)
+- Loader (pala) Promedio: 1.79 (codificado numéricamente)
+- Eficiencia del Camión: 0.118032
+- Eficiencia de la Pala: 1.169723
+- Tonelaje por Palada: 104.649197
+- Eficiencia de Distancia: 1.008742
+  * Este grupo tiene la eficiencia del camión más baja pero una eficiencia de la pala alta. El tonelaje por palada es el más alto, y la eficiencia de distancia está cerca de 1, indicando poca variabilidad en la distancia.
 
-Clúster 3:
-Fecha Promedio: 3 de diciembre de 2023
-Camión Promedio: 23.29 (codificado numéricamente)
-Loader (pala) Promedio: 1.16 (codificado numéricamente)
-Eficiencia del Camión: 0.217199
-Eficiencia de la Pala: 1.171333
-Tonelaje por Palada: 104.381247
-Eficiencia de Distancia: 0.956280
--	Este grupo tiene la eficiencia del camión más alta, y una eficiencia de la pala alta. El tonelaje por palada es alto, similar al Clúster 2, y la eficiencia de distancia es la más baja, sugiriendo menos variabilidad en la distancia recorrida.
+**Clúster 3:**
+- Fecha Promedio: 3 de diciembre de 2023
+- Camión Promedio: 23.29 (codificado numéricamente)
+- Loader (pala) Promedio: 1.16 (codificado numéricamente)
+- Eficiencia del Camión: 0.217199
+- Eficiencia de la Pala: 1.171333
+- Tonelaje por Palada: 104.381247
+- Eficiencia de Distancia: 0.956280
+  * Este grupo tiene la eficiencia del camión más alta, y una eficiencia de la pala alta. El tonelaje por palada es alto, similar al Clúster 2, y la eficiencia de distancia es la más baja, sugiriendo menos variabilidad en la distancia recorrida.
 
-Conclusiones:
-Clúster 0: Indica operaciones con eficiencia de camión moderada y menor tonelaje por palada. Podría ser un enfoque para optimización (menos eficiencia).
-Clúster 1: Presenta una eficiencia de distancia muy alta y variabilidad en la distancia, posiblemente indicando rutas largas o cambios en las condiciones operativas.
-Clúster 2: Tiene la menor eficiencia de camión, pero el mayor tonelaje por palada, sugiriendo posibles mejoras en la operación de los camiones.
-Clúster 3: Muestra la mejor eficiencia de camión, similar a Clúster 2 en tonelaje por palada, pero con una menor eficiencia de distancia.
-Esto proporciona una base sólida para investigar y optimizar diferentes aspectos operacionales según los clústeres (se puede revisar cada clúster y su composición en el Dashboard adjunto).
-
-
+__Conclusiones:__
+__Clúster 0:__ Indica operaciones con eficiencia de camión moderada y menor tonelaje por palada. Podría ser un enfoque para optimización (menos eficiencia).
+__Clúster 1:__ Presenta una eficiencia de distancia muy alta y variabilidad en la distancia, posiblemente indicando rutas largas o cambios en las condiciones operativas.
+__Clúster 2:__ Tiene la menor eficiencia de camión, pero el mayor tonelaje por palada, sugiriendo posibles mejoras en la operación de los camiones.
+__Clúster 3:__ Muestra la mejor eficiencia de camión, similar a Clúster 2 en tonelaje por palada, pero con una menor eficiencia de distancia.
+  * Esto proporciona una base sólida para investigar y optimizar diferentes aspectos operacionales según los clústeres (se puede revisar cada clúster y su composición en el Dashboard adjunto).
 
 
 
-
-
-Acciones Sugeridas finales:
-Optimización de Rutas (Clúster 2):
+__Acciones Sugeridas finales:__
+**Optimización de Rutas (Clúster 2):**
 Se podría investigar las rutas de los camiones en el clúster 2 para entender por qué la eficiencia por distancia es tan alta. Podría haber rutas subóptimas o desviaciones innecesarias.
 
-Mejorar la Eficiencia de Carga (Clúster 0):
+**Mejorar la Eficiencia de Carga (Clúster 0):**
 Evaluar las operaciones de carga en el clúster 0 para aumentar el tonelaje por paladas y la eficiencia de camión. Esto podría incluir capacitación adicional para operadores de palas o ajustes en la logística de carga.
 
-Comparar Buenas Prácticas (Clúster 1):
+**Comparar Buenas Prácticas (Clúster 1):**
 Examinar las operaciones en el clúster 1, donde la eficiencia es alta, para identificar mejores prácticas que se puedan implementar en otros clústeres.
 
-Revisión de Operaciones (Clúster 3):
+**Revisión de Operaciones (Clúster 3):**
 Aunque la eficiencia de pala y el tonelaje por paladas son altos, la baja eficiencia de camión en el clúster 3 sugiere que podría haber cuellos de botella o ineficiencias en el uso del camión que deben ser resueltas.
 
-Observaciones sobre la Comparación entre Clústeres:
-La posición de las cajas y las líneas de mediana ayudan a comparar rápidamente la eficiencia de las palas entre diferentes clústeres.
-Por ejemplo, si una caja está más alta en el eje Y, indica que ese clúster tiene una mayor eficiencia de pala en promedio.
+__Observaciones sobre la Comparación entre Clústeres:__
+- La posición de las cajas y las líneas de mediana ayudan a comparar rápidamente la eficiencia de las palas entre diferentes clústeres.
+- Por ejemplo, si una caja está más alta en el eje Y, indica que ese clúster tiene una mayor eficiencia de pala en promedio.
 
-Variabilidad dentro de los Clústeres:
-La altura de las cajas muestra la variabilidad de la eficiencia de las palas dentro de cada clúster.
-Clústeres con cajas más altas tienen una mayor variabilidad en la eficiencia de las palas.
+__Variabilidad dentro de los Clústeres:__
+- La altura de las cajas muestra la variabilidad de la eficiencia de las palas dentro de cada clúster.
+- Clústeres con cajas más altas tienen una mayor variabilidad en la eficiencia de las palas.
 
 
+__Outliers (posteriores):__
+- Los puntos individuales fuera de los bigotes indican outliers, lo que podría sugerir operaciones anómalas o excepcionales en esos clústeres.
 
-Outliers (posteriores):
-Los puntos individuales fuera de los bigotes indican outliers, lo que podría sugerir operaciones anómalas o excepcionales en esos clústeres.
+__Tendencias Generales:__
+- Se puede ver si hay clústeres que consistentemente tienen una eficiencia de pala más alta o más baja, lo que puede ser útil para identificar mejores prácticas operativas o áreas de mejora.
 
-Tendencias Generales:
-Se puede ver si hay clústeres que consistentemente tienen una eficiencia de pala más alta o más baja, lo que puede ser útil para identificar mejores prácticas operativas o áreas de mejora.
-
-Acciones Sugeridas Extras:
+__Acciones Sugeridas Extras:__
 -	Identificación de Mejores Prácticas: Examinar los clústeres con alta eficiencia de pala para entender qué prácticas operativas pueden estar contribuyendo a su éxito.
 -	Investigación de Outliers: Investigar los outliers para determinar si representan oportunidades de mejora o si son casos atípicos que requieren atención especial.
 -	Optimización de Operaciones: Utilizar esta información para ajustar las operaciones de los clústeres con menor eficiencia, enfocándose en aumentar la eficiencia de las palas y mejorar la uniformidad de las operaciones.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-Archivos adjuntos:
--	Notebook donde se trabajó el archivo de datos .csv, se realizó ETL y EDA: EjercicioML/examen.ipynb at main · melinnicri/EjercicioML
--	Notebook donde se trabajó el nuevo DATAFRAME para hacerse el ML:
-EjercicioML/MLmineria.ipynb at main · melinnicri/EjercicioML
--	Notebook donde se hicieron las listas con los camiones, palas y sus eficiencias:
-EjercicioML/cluster_cam_pal.ipynb at main · melinnicri/EjercicioML
-.//…_@v
+__Archivos adjuntos:__
+-	Notebook donde se trabajó el archivo de datos .csv, se realizó ETL y EDA: ["examen.ipynb"](https://github.com/melinnicri/EjercicioML/blob/main/examen.ipynb)
+-	Notebook donde se trabajó el nuevo DATAFRAME para hacerse el ML:["MLmineria.ipynb"](https://github.com/melinnicri/EjercicioML/blob/main/MLmineria.ipynb)
+-	Notebook donde se hicieron las listas con los camiones, palas y sus eficiencias:["clústeres"](https://github.com/melinnicri/EjercicioML/blob/main/cluster_cam_pal.ipynb)
+__.//…_@v__
