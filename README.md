@@ -17,14 +17,14 @@ __Datos Iniciales:__
 * Datos faltantes: Ninguno
 * Datos atípicos: Sí, pero resultaron ser menos del 1% y fueron eliminados. Estos no desvían significativamente los promedios, en un principio.
 
+### Gráfico 1: Caja con Bigotes (Variabilidad)
 
 <p align="center">
-  <img src="https://github.com/melinnicri/EjercicioML/blob/main/images/graficoinicial.png" alt="Descripción de la Imagen">
+  <img src="https://github.com/melinnicri/EjercicioML/blob/main/images/graficoinicial.png" alt="Gráfico 1: gráfico con bigotes de los datos iniciales:">
 </p>
 
 <p align="center" style="font-size: small;">Abreviaturas: ton: toneladas de material con que se carga un camión; n_shovel: número de paladas con que se llenan un camión; truck_total_cycle: ciclo total del camión (en segundos); loader_total_cycle: ciclo total de paladas (en segundos); distance_empty: distancia recorrida de los camiones vacíos (en metros); distance_full: distancia recorrida de los camiones llenos (en metros).</p>
 
-### Gráfico 1: gráfico con bigotes de los datos iniciales:
 
 __Abreviaturas:__
 * ton: Toneladas de material con que se carga un camión
