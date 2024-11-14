@@ -281,8 +281,8 @@ __Acciones Sugeridas Extras:__
 
 __Archivos adjuntos:__
 -	Notebook donde se trabajó el archivo de datos .csv, se realizó ETL y EDA: [examen.ipynb](https://github.com/melinnicri/EjercicioML/blob/main/examen.ipynb)
--	Notebook donde se trabajó el nuevo DATAFRAME para hacerse el ML:[MLmineria.ipynb](https://github.com/melinnicri/EjercicioML/blob/main/MLmineria.ipynb)
--	Notebook donde se hicieron las listas con los camiones, palas y sus eficiencias:[clústeres](https://github.com/melinnicri/EjercicioML/blob/main/cluster_cam_pal.ipynb)
+-	Notebook donde se trabajó el nuevo DATAFRAME para hacerse el ML: [MLmineria.ipynb](https://github.com/melinnicri/EjercicioML/blob/main/MLmineria.ipynb)
+-	Notebook donde se hicieron las listas con los camiones, palas y sus eficiencias: [clústeres](https://github.com/melinnicri/EjercicioML/blob/main/cluster_cam_pal.ipynb)
 -	Panel en PowerBI: [Dashboard](https://github.com/melinnicri/EjercicioML/blob/main/camiones.pbix),
 -	[Imagen Dashboard](https://github.com/melinnicri/EjercicioML/blob/main/images/dashboard.png)
 __.//…_@v__
